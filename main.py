@@ -56,9 +56,9 @@ try:
                 with st.sidebar:
                     selected = option_menu(
                         menu_title = None,
-                        options=["Login","Advance"],
+                        options=["Main/Logout","Advance"],
                     )
-                if selected == "Login":
+                if selected == "Main/Logout":
                    st.sidebar.subheader(f'Welcome {username}')
                    Authenticator.logout('Log Out', 'sidebar')
                 
