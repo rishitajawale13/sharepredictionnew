@@ -4,11 +4,11 @@ import datetime
 import re
 from deta import Deta
 
-DETA_KEY = 'a0ywjlv1vks_firiTxVcN7339YFr3Ns7vUQFcXwLi8Q3'
+DETA_KEY = 'a0mtgadyqsd_ZVktMDWfmH5HPRfnGKENywfz2m5iE9uv'
 
 deta = Deta(DETA_KEY)
 
-db = deta.Base('myproject')
+db = deta.Base('shareprediction')
 
 
 def insert_user(email, username, password):
